@@ -686,7 +686,51 @@ footer .footer-two p i {
     color: red;
 }
 
+/* thank you page styling */
+/* Thank You Page */
 
+.thankyou-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #EFF6FF, #FAF5FF);
+}
+
+.thankyou-container {
+    text-align: center;
+    background: #ffffff;
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    max-width: 400px;
+}
+
+.thankyou-container h1 {
+    color: #111827;
+    margin-bottom: 1rem;
+}
+
+.thankyou-container p {
+    color: #4B5563;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.thankyou-container a {
+    display: inline-block;
+    text-decoration: none;
+    background: #3B82F6;
+    color: #ffffff;
+    padding: 0.7rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.thankyou-container a:hover {
+    background: #2563eb;
+}
 
 
 
