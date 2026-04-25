@@ -153,30 +153,28 @@ header a {
     gap: 1rem;
 }
 .hero-btns button{
-    color: var(--primary-blue);
-    background: none;
-    border-radius: 0.5rem;
-    font-size: 1.2rem;
-    padding: 0.7rem 1.4rem;
-}
-
-.hero-btns #myWork {
-    color: #FFFFFF;
-    background-color: var(--bg-color);
     border: none;
 }
 
-.hero-btns #contact {
-    background-color: none;
-    border: 0.1rem solid var(--bg-color);
+.hero-btns #myWork,
+ .cv-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.7rem 1rem;
+    background: #155DFC;
+    color: #fff;
+    border-radius: 0.6rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
 }
 
-.hero-btns #myWork:hover{
-    background-color: var(--hover-btn-bg);
-}
-
-.hero-btns #contact:hover{
-    background-color: #587db928;
+.hero-btns #myWork:hover,
+.cv-btn:hover {
+    background: #0f4ad6;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(21, 93, 252, 0.3);
 }
 
 .social-links {
@@ -205,7 +203,6 @@ header a {
 .social-links div:hover {
     background-color: #547cbb4f;
 }
-
 
 
 /* About Section (second section) */
@@ -303,6 +300,7 @@ header a {
     font-size: 1rem;
 }
 
+
 /* Skills & Expertise Section */
 
 .skills-expertise {
@@ -351,6 +349,7 @@ header a {
     border-radius: 0.75rem;
     background: linear-gradient(to right, #4f46e5, #a855f7);
 }
+
 
 /* Featured Projects Section */
 
@@ -411,6 +410,7 @@ header a {
     margin-bottom: 0.5rem;
 }
 
+
 /* Project Links Buttons */
 .project-links {
     display: flex;
@@ -465,6 +465,7 @@ header a {
     opacity: 1;
     transform: translateY(0);
 }
+
 
 /* Get in Touch Section */
 
@@ -687,7 +688,6 @@ footer .footer-two p i {
 }
 
 /* thank you page styling */
-/* Thank You Page */
 
 .thankyou-page {
     display: flex;
@@ -797,6 +797,15 @@ footer .footer-two p i {
         max-width: 100%;
     }
 
+    .experience {
+        display: block;
+        text-align: center;
+    
+        background: linear-gradient(to right, #3B82F6, #9333EA);
+        border-radius: 1rem;
+        padding: 3.2rem 0rem;
+    }
+    
     .footer-main {
         flex-direction: column;
         gap: 2rem;
